@@ -1,0 +1,69 @@
+#main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    background-color: #0c1f3b;
+    padding: 40px 40px 40px 40px;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:white;
+    width: 1000px;
+    height: 600px;
+}
+
+#title{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#sub-title{
+    text-align: center;
+    font-size: 1em;
+}
+
+#scatter-plot{
+    /*background-color: coral;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; */
+    padding: 20px 20px 20px 20px;
+}
+
+
+#x-axis path{
+    stroke: black;
+    stroke-width: 1px;
+    fill: none;
+}
+
+#y-axis path{
+    stroke: black;
+    stroke-width: 1px;
+    fill: none;
+}
+
+#tooltip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+   /* width: 150px;
+    height: 50px;
+    padding: 2px;
+    font: 12px;*/
+    background: #a2dbe6;
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+    pointer-events: none;
+    padding: 10px;
+}

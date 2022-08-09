@@ -1,3 +1,6 @@
+Technologies and concepts: React - Hooks, JSX
+D3.js, HTML5, CSS3, SVG, JSON
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
